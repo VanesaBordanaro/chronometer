@@ -31,7 +31,7 @@ const calculateTime = runningTime => {
     return `${displayHour} : ${displayMinutes} : ${displaySeconds}`
 }
 
-const pause = () => {
+const stop = () => {
     clearInterval(stopWatchInterval)
 }
 
